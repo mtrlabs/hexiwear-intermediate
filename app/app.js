@@ -22,6 +22,7 @@ function mainController($scope) {
     	main.buttonClicked = function() {
 			/* Start the connection. */
 			main.hexiwear.connect();
+		 alert('in here');
     	}
 	}
 	
