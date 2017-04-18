@@ -22,7 +22,7 @@ function mainController($scope) {
     	main.buttonClicked = function() {
 			/* Start the connection. */
 			main.hexiwear.connect();
-		 console.log(main.hexiwear);
+		 console.log(main.hexiwear.motionData);
     	}
 	}
 	
